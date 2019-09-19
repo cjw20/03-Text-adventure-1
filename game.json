@@ -14,38 +14,127 @@
 
     "rooms": {
       "START": {
-        "name": "Starting place",
-        "desc": "This is the place to start!",
+        "name": "Enter",
+        "desc": "You find yourself in the enterance way of a strange house.\r\nThe door you used to enter the house will not open, so you will have to find another way out. \r\nThere is an unlocked door to the west and a hallway leading to a kitchen area to the east.",
         "exits": [
-          {
-            "verb": "NORTH",
-            "target": "LOC2",
-            "condition": ""
-          },
-          {
-            "verb": "SOUTH",
-            "target": "LOC2",
-            "condition": ""
-          },
+         
+          
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "Storage",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "Kitchen",
             "condition": ""
           }
         ],
         "inventory": []
       },
       "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+        "name": "Kitchen",
+        "desc": "You head east and enter the kitchen. To the north there appears to be a living room. \r\nYou can also head back west to the entrance way.",
         "exits": [
+          {
+            "verb": "WEST",
+            "target": "Enter",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "Living",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC3": {
+        "name": "Storage",
+        "desc": "Through the door lies the houses storage room. \r\nAfter a quick search you find that there are no ways out of the storage room except the way you came in to the east.",
+        "exits": [
+          
+          {
+            "verb": "EAST",
+            "target": "Enter",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC4": {
+        "name": "Living",
+        "desc": "In the living room there is a set of couches all facing a TV.\r\nTo the north there is a room filled with bookshelves and to the west is a stairway leading downwards. ",
+        "exits": [
+          {
+            "verb": "WEST",
+            "target": "Base",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Kitchen",
+            "condition": ""
+          }
+          {
+            "verb": "NORTH",
+            "target": "Library",
+            "condition": ""
+          },
+        ],
+        "inventory": []
+      },
+      "LOC5": {
+        "name": "Library",
+        "desc": "A dead end, nothing in here but dusty books. The only way is south back to the living room.",
+        "exits": [
+          {
+            "verb": "SOUTH",
+            "target": "Living",
+            "condition": ""
+          },
+         
+        ],
+        "inventory": []
+    
+      },
+      "LOC6": {
+        "name": "Base",
+        "desc": "The stairs lead to a dark basement area.\r\n Unlucky for you! The stairs collapse just as you reach the bottom, leaving no way back up. \r\nIt is hard to make out but you can see a bathroom to the north and a suspicious looking wall to the west.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Bath",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Secret",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "LOC7": {
+        "name": "Bath",
+        "desc": "Just like the rest of the basement, the bathroom is dark and hard to see. \r\nHowever, this may be for the best. \r\nThere is no way out of the bathroom except the way you came to the south.",
+        "exits": [
+          {
+            "verb": "SOUTH",
+            "target": "Base",
+            "condition": ""
+          },
+          
+        ],
+        "inventory": []
+      },
+      "LOC8": {
+        "name": "Secret",
+        "desc": "Just as you suspected, the suspicious wall was more than it seemed. Pressing on the wall causes it to open up to a secret exitway.\r\n Wanting to escape as quickly as possible, you run through the secret exit.",
+        "exits": [
+          
         ],
         "inventory": []
       }
-    }
-  }
+    },
+  },
