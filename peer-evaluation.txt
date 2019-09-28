@@ -1,0 +1,38 @@
+Name: Mac McKay
+Date:9/28/2019
+Project: 03-Text-Adventure
+Peer's repository: https://github.com/cjw20/03-Text-adventure-1
+
+
+
+What is something you learned by reviewing your peer's project?
+Answer: I learned that comma placement is very important in json files because Charlie's game.json didn't work because of a few misplaced commas.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+Answer: I like how Charlie's writing in game.json seemed more dynamic and action filled rather than reading off a description of a room.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+Answer: Be a little more descriptive with what can be done in a scene, I got stuck on the rainbow.
+ 
+
+What could have been clearer or better commented?
+Answer: Nothing much, it was all detailed in how it worked.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+Answer: I got stuck on the rainbow with the NBC commissary, I could go east and west but nowhere after that, I also crashed when I went to the cyclops door in the basement of the house.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Answer: Yes.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+Answer: No, not really. It clear, concise, and to the point.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+Answer: The writing for the json file was dynamic and descriptive, good job!
+
