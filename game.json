@@ -75,12 +75,12 @@
             "verb": "SOUTH",
             "target": "Kitchen",
             "condition": ""
-          }
+          },
           {
             "verb": "NORTH",
             "target": "Library",
             "condition": ""
-          },
+          }
         ],
         "inventory": []
       },
@@ -92,7 +92,7 @@
             "verb": "SOUTH",
             "target": "Living",
             "condition": ""
-          },
+          }
          
         ],
         "inventory": []
@@ -123,7 +123,7 @@
             "verb": "SOUTH",
             "target": "Base",
             "condition": ""
-          },
+          }
           
         ],
         "inventory": []
@@ -136,5 +136,5 @@
         ],
         "inventory": []
       }
-    },
-  },
+    }
+  }
