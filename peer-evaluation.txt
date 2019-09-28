@@ -14,7 +14,7 @@ Answer: I like how Charlie's writing in game.json seemed more dynamic and action
  
 
 What suggestions would you have for your peer to improve his/her code?
-Answer: Be sure to double check your json file, the professor offered a tool to check the format. Also keep track of your commas.
+Answer: Be a little more descriptive with what can be done in a scene, I got stuck on the rainbow.
  
 
 What could have been clearer or better commented?
@@ -22,7 +22,7 @@ Answer: Nothing much, it was all detailed in how it worked.
  
 
 Was there anything in the code that was confusing to you? If so, what?
-Answer: I couldn't get the game.json to run in main.py past the first room and I don't know why. Also in main_simple.py the game crashed when I got to the cylops door for a reason I cannont decipher.
+Answer: I got stuck on the rainbow with the NBC commissary, I could go east and west but nowhere after that, I also crashed when I went to the cyclops door in the basement of the house.
  
 
 Does the repository contain an appropriate LICENSE?
